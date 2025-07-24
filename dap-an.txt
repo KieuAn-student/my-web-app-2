@@ -52,3 +52,10 @@ git add .
 git commit -m "Change welcome message" 
 git push -u origin bugfix/typo
 tạo pull request trên github và merge vào master
+
+Phần 4
+
+git switch master
+git log --oneline
+git revert 02d7a78 -n    
+git commit -m "Revert footer addition"
