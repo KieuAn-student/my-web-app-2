@@ -37,3 +37,12 @@ git commit -m "added footer v2"
 git merge feature/footer
 git add .
 git commit -m "keep v2"
+
+Phần 3:
+
+tạo repo trên github
+git remote add origin https://github.com/KieuAn-student/my-web-app-2.git
+git remote -v 
+git push -u origin master
+
+
