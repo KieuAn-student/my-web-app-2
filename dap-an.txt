@@ -40,9 +40,15 @@ git commit -m "keep v2"
 
 Phần 3:
 
+1. 
 tạo repo trên github
 git remote add origin https://github.com/KieuAn-student/my-web-app-2.git
 git remote -v 
 git push -u origin master
 
-
+2. 
+git switch -c bugfix/typo
+git add .
+git commit -m "Change welcome message" 
+git push -u origin bugfix/typo
+tạo pull request trên github và merge vào master
