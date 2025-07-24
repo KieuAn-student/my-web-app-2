@@ -79,3 +79,5 @@ tạo pull request trên github gộp nhánh vào master
 git switch master
 git add .
 git commit -m "Lưu lại tất cả thay đổi file text"
+git pull origin master
+git push origin master
