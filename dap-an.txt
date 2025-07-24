@@ -8,3 +8,10 @@ git commit -m "Initialize project with index.html".
 
 git status
 git log 
+
+3.
+
+git add .
+git commit -m "Add welcome message to index.html"
+git log
+
