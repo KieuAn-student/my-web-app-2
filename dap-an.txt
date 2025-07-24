@@ -15,3 +15,11 @@ git add .
 git commit -m "Add welcome message to index.html"
 git log
 
+Phần 2
+
+1. 
+git switch -c feature/navigation
+git add .
+git commit -m "Add navigation bar functionality" 
+
+2. 
