@@ -55,7 +55,17 @@ tạo pull request trên github và merge vào master
 
 Phần 4
 
+1.
 git switch master
 git log --oneline
 git revert 02d7a78 -n    
 git commit -m "Revert footer addition"
+
+2. 
+git switch -c develop
+git switch -c feature/contact
+git add my-web-app/contact.html
+git commit -m "Add contact page"  
+git switch develop
+git merge feature/contact
+git push -u origin develop 
