@@ -69,3 +69,13 @@ git commit -m "Add contact page"
 git switch develop
 git merge feature/contact
 git push -u origin develop 
+
+Phần 5
+git switch -c hotfix/bug
+git add .
+git commit -m "added bug fixed" 
+git push -u origin hotfix/bug
+tạo pull request trên github gộp nhánh vào master
+git switch master
+git add .
+git commit -m "Lưu lại tất cả thay đổi file text"
