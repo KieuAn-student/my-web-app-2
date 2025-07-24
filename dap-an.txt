@@ -23,3 +23,17 @@ git add .
 git commit -m "Add navigation bar functionality" 
 
 2. 
+git switch master
+git merge feature/navigation
+git branch -d feature/navigation
+
+3.
+git switch -c feature/footer
+git add . 
+git commit -m "added footer v1"
+git switch master
+git add .
+git commit -m "added footer v2"
+git merge feature/footer
+git add .
+git commit -m "keep v2"
